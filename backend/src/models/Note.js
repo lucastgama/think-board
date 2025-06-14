@@ -18,7 +18,7 @@ const noteSchema = new mongoose.Schema({
   },
   updatedAt: {
     type: Date,
-    default: Date.now,
+    trim: true,
   },
 });
 

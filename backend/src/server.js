@@ -7,11 +7,10 @@ dotenv.config();
 
 const app = express();
 const port = process.env.PORT || 3000;
-console.log(`Connecting to MongoDB at ${process.env.MONGO_URI}`);
-console.log(`Connecting to MongoDB at ${process.env.PORT}`);
 
 connectDB();
 
+app.use(express.json());
 app.use("/api/notes", routes);
 
 app.listen(port, () => {
