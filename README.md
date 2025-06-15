@@ -2,7 +2,7 @@
 
 ThinkBoard is a full-stack note-taking application that allows users to create, read, update, and delete notes with a clean, modern interface featuring a dark forest theme.
 
-![ThinkBoard Screenshot](https://example.com/screenshot.png)
+![ThinkBoard Screenshot](https://raw.githubusercontent.com/lucastgama/think-board/refs/heads/feature/frontend-setup/image.png)
 
 ## 📋 Features
 
@@ -15,6 +15,7 @@ ThinkBoard is a full-stack note-taking application that allows users to create, 
 ## 🛠️ Tech Stack
 
 ### Frontend
+
 - [React 19](https://react.dev/) - UI library
 - [Vite](https://vitejs.dev/) - Build tool
 - [React Router](https://reactrouter.com/) - Navigation
@@ -25,6 +26,7 @@ ThinkBoard is a full-stack note-taking application that allows users to create, 
 - [Axios](https://axios-http.com/) - API requests
 
 ### Backend
+
 - [Express](https://expressjs.com/) - Web framework
 - [MongoDB](https://www.mongodb.com/) with [Mongoose](https://mongoosejs.com/) - Database
 - [Upstash Redis](https://upstash.com/) - Rate limiting
@@ -33,6 +35,7 @@ ThinkBoard is a full-stack note-taking application that allows users to create, 
 ## 🚀 Getting Started
 
 ### Prerequisites
+
 - [Node.js](https://nodejs.org/) (v16+)
 - [npm](https://www.npmjs.com/) or [yarn](https://yarnpkg.com/)
 - MongoDB database (local or Atlas)
@@ -41,6 +44,7 @@ ThinkBoard is a full-stack note-taking application that allows users to create, 
 ### Installation
 
 1. Clone the repository:
+
 ```bash
 git clone https://github.com/yourusername/think-board.git
 cd think-board
@@ -48,7 +52,8 @@ cd think-board
 
 2. Set up environment variables:
 
-Create a `.env` file in the [`backend`](backend ) directory:
+Create a `.env` file in the [`backend`](backend) directory:
+
 ```
 PORT=3000
 MONGO_URI=your_mongodb_connection_string
@@ -58,6 +63,7 @@ UPSTASH_REDIS_REST_TOKEN=your_upstash_redis_rest_token
 ```
 
 3. Install backend dependencies and start the server:
+
 ```bash
 cd backend
 npm install
@@ -65,6 +71,7 @@ npm run dev
 ```
 
 4. In a new terminal, install frontend dependencies and start the development server:
+
 ```bash
 cd frontend
 npm install
@@ -87,13 +94,16 @@ The application includes rate limiting. If you try to create or edit too many no
 ## 📦 Building for Production
 
 ### Frontend
+
 ```bash
 cd frontend
 npm run build
 ```
+
 The build output will be in the `frontend/dist` directory.
 
 ### Backend
+
 ```bash
 cd backend
 npm start
