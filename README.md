@@ -108,11 +108,3 @@ The build output will be in the `frontend/dist` directory.
 cd backend
 npm start
 ```
-
-## 🤝 Contributing
-
-Contributions, issues, and feature requests are welcome! Feel free to check the [issues page](https://github.com/yourusername/think-board/issues).
-
-## 📄 License
-
-This project is [ISC](https://opensource.org/licenses/ISC) licensed.
